@@ -87,10 +87,6 @@
             background-color: var(--sand);
         }
 
-        .section-soft {
-            background: linear-gradient(180deg, rgba(248, 245, 240, 0.9), rgba(232, 223, 202, 0.5));
-        }
-
         .section-title {
             font-size: var(--fs-800);
         }
@@ -196,7 +192,7 @@
         }
         
         .hero {
-            background: linear-gradient(rgba(94, 74, 63, 0.65), rgba(94, 74, 63, 0.65)), 
+            background: linear-gradient(rgba(94, 74, 63, 0.8), rgba(94, 74, 63, 0.8)), 
                         url('https://images.unsplash.com/photo-1519638399535-1b036603ac77?q=80&w=2832&auto=format&fit=crop');
             background-size: cover;
             background-position: center;
@@ -224,17 +220,11 @@
         
         .hero p {
             font-size: 1.4rem;
-            margin-bottom: 1.5rem;
+            margin-bottom: 2.5rem;
             max-width: 700px;
             margin-left: auto;
             margin-right: auto;
             text-shadow: 0 1px 3px rgba(0,0,0,0.3);
-        }
-
-        .hero-subtext {
-            font-size: 1.1rem;
-            margin-bottom: 2.5rem;
-            color: rgba(248, 245, 240, 0.9);
         }
         
         .cta-buttons {
@@ -411,49 +401,6 @@
         .chapter-controls {
             display: flex;
             gap: 1rem;
-        }
-
-        .chapter-progress {
-            display: flex;
-            flex-wrap: wrap;
-            gap: var(--space-3);
-            align-items: center;
-            padding: 0 var(--space-6) var(--space-4);
-        }
-
-        .chapter-progress-label {
-            font-family: var(--font-sans);
-            font-weight: 600;
-            color: var(--plum);
-        }
-
-        .chapter-progress-track {
-            display: flex;
-            flex-wrap: wrap;
-            gap: var(--space-2);
-        }
-
-        .chapter-progress-btn {
-            border: 1px solid var(--gold);
-            background: white;
-            color: var(--plum);
-            padding: 0.3rem 0.6rem;
-            border-radius: 999px;
-            font-family: var(--font-sans);
-            font-size: var(--fs-300);
-            cursor: pointer;
-        }
-
-        .chapter-progress-btn.is-active {
-            background: var(--gold);
-            color: var(--plum);
-        }
-
-        .chapter-progress-link {
-            color: var(--plum);
-            font-weight: 600;
-            text-decoration: none;
-            font-family: var(--font-sans);
         }
         
         .chapter-btn {
@@ -910,22 +857,6 @@
             gap: var(--space-5);
         }
 
-        .home-intro-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: var(--space-5);
-            text-align: left;
-        }
-
-        .home-intro-grid h3 {
-            color: var(--plum);
-            margin-bottom: var(--space-2);
-        }
-
-        .home-intro-grid p {
-            font-size: var(--fs-400);
-        }
-
         .choose-path-card h3 {
             font-size: var(--fs-600);
             color: var(--plum);
@@ -957,24 +888,9 @@
             border: 1px solid var(--sand);
         }
 
-        .chapter-path {
+        .reading-funnel ul {
             padding-left: 1.2rem;
             margin-top: var(--space-3);
-            display: grid;
-            gap: var(--space-2);
-        }
-
-        .chapter-badge {
-            background: var(--gold);
-            color: var(--plum);
-            font-size: var(--fs-300);
-            padding: 0.2rem 0.5rem;
-            border-radius: 999px;
-            margin-right: var(--space-2);
-            font-family: var(--font-sans);
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.04em;
         }
 
         .accordion {
@@ -1152,48 +1068,12 @@
             border: 1px solid var(--sand);
         }
 
-        .chapter-list-intro {
-            margin-bottom: var(--space-4);
-            color: #5a4c46;
-        }
-
         .chapter-list ol {
             padding-left: 1.2rem;
         }
 
         .chapter-list li {
             margin-bottom: var(--space-2);
-        }
-
-        .chapter-link {
-            display: flex;
-            flex-direction: column;
-            gap: var(--space-2);
-            text-align: left;
-            width: 100%;
-            padding: var(--space-3) 0;
-        }
-
-        .chapter-title-row {
-            font-size: var(--fs-500);
-            font-weight: 600;
-            color: var(--plum);
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: var(--space-2);
-        }
-
-        .chapter-theme {
-            font-size: var(--fs-300);
-            color: #6c5f59;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-        }
-
-        .chapter-hook {
-            font-size: var(--fs-400);
-            color: #4c4c4c;
         }
 
         .endnotes-page {
